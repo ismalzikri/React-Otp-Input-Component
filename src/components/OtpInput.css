@@ -1,0 +1,30 @@
+.otp-group {
+    display: flex;
+    width: 100%;
+    column-gap: 10px;
+  }
+  
+  .otp-input {
+    width: 48px;
+    height: 60px;
+    border: none;
+    border-bottom: 3px solid #aaaaaa;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #303135;
+    line-height: 1;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .otp-input:focus {
+    outline: none;
+  }
+  
+  .has-value {
+    border-bottom-color: #0e4e9b;
+  }
